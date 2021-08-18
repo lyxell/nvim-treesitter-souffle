@@ -1,5 +1,7 @@
 ## nvim-treesitter-souffle
 
+Requires neovim 0.5 or later and [nvim-treesitter](https://github.com/nvim-treesitter/nvim-treesitter).
+
 ### 1. Installation
 
 #### Using the built-in package manager
