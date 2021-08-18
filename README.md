@@ -1,4 +1,4 @@
-### nvim-treesitter-souffle
+## nvim-treesitter-souffle
 
 ### Installation
 
