@@ -6,8 +6,8 @@ Using `vim-plug`:
 
 ```vim
 call plug#begin('~/.vim/plugged')
-Plug 'https://github.com/julienhenry/tree-sitter-souffle', { 'commit': '767ba95e2b0513c1b56d9a60488f1167a695fa73' }
-Plug 'https://github.com/lyxell/nvim-treesitter-souffle'
+Plug 'julienhenry/tree-sitter-souffle', { 'commit': '767ba95e2b0513c1b56d9a60488f1167a695fa73' }
+Plug 'lyxell/nvim-treesitter-souffle'
 call plug#end()
 ```
 
