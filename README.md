@@ -2,7 +2,7 @@
 
 ### 1. Installation
 
-#### Built-in package manager
+#### Using the built-in package manager
 
 ```
 mkdir -p ~/.config/nvim/pack/plugins/start/
@@ -10,7 +10,7 @@ git clone https://github.com/julienhenry/tree-sitter-souffle.git ~/.config/nvim/
 git clone https://github.com/lyxell/nvim-treesitter-souffle.git ~/.config/nvim/pack/plugins/start/nvim-treesitter-souffle
 ```
 
-#### vim-plug
+#### Using vim-plug
 
 ```vim
 call plug#begin('~/.vim/plugged')
