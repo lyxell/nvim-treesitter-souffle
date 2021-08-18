@@ -28,7 +28,8 @@ lua <<EOF
 local parser_config = require "nvim-treesitter.parsers".get_parser_configs()
 parser_config.souffle = {
   install_info = {
-    url = <Insert installation location for julienhenry/tree-sitter-souffle here>,
+--  change this path to wherever you installed julienhenry/tree-sitter-souffle
+    url = "~/.config/nvim/pack/plugins/start/tree-sitter-souffle",
     files = {"src/parser.c"}
   }
 }
