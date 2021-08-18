@@ -1,17 +1,27 @@
 ## nvim-treesitter-souffle
 
-### Installation
+### 1. Installation
 
-Using `vim-plug`:
+#### Built-in package manager
+
+```
+mkdir -p ~/.config/nvim/pack/plugins/start/
+git clone https://github.com/julienhenry/tree-sitter-souffle.git ~/.config/nvim/pack/plugins/start/tree-sitter-souffle
+git clone https://github.com/lyxell/nvim-treesitter-souffle.git ~/.config/nvim/pack/plugins/start/nvim-treesitter-souffle
+```
+
+#### vim-plug
 
 ```vim
 call plug#begin('~/.vim/plugged')
-Plug 'julienhenry/tree-sitter-souffle', { 'commit': '767ba95e2b0513c1b56d9a60488f1167a695fa73' }
+Plug 'julienhenry/tree-sitter-souffle'
 Plug 'lyxell/nvim-treesitter-souffle'
 call plug#end()
 ```
 
-Then add the following to your config:
+### 2. Configuration
+
+* Add the following to your config:
 
 ```vim
 lua <<EOF
@@ -25,4 +35,4 @@ parser_config.souffle = {
 EOF
 ```
 
-Then run `:TSInstallFromGrammar souffle`
+* Then run `:TSInstallFromGrammar souffle`
