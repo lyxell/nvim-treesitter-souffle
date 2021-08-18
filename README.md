@@ -1,5 +1,7 @@
 ## nvim-treesitter-souffle
 
+Based on the grammar https://github.com/julienhenry/tree-sitter-souffle
+
 Requires neovim 0.5 or later and [nvim-treesitter](https://github.com/nvim-treesitter/nvim-treesitter).
 
 ### 1. Installation
