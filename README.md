@@ -1,3 +1,28 @@
-### Queries for using tree-sitter syntax highlighting for Soufflé
+### nvim-treesitter-souffle
 
-Use https://github.com/julienhenry/tree-sitter-souffle to generate the tree-sitter grammar
+### Installation
+
+Using `vim-plug`:
+
+```vim
+call plug#begin('~/.vim/plugged')
+Plug 'https://github.com/julienhenry/tree-sitter-souffle', { 'commit': '767ba95e2b0513c1b56d9a60488f1167a695fa73' }
+Plug 'https://github.com/lyxell/nvim-treesitter-souffle'
+call plug#end()
+```
+
+Add the following to your config:
+
+```vim
+lua <<EOF
+local parser_config = require "nvim-treesitter.parsers".get_parser_configs()
+parser_config.souffle = {
+  install_info = {
+    url = "'~/.vim/plugged/tree-sitter-souffle",
+    files = {"src/parser.c"}
+  }
+}
+EOF
+```
+
+Then run `:TSInstallFromGrammar souffle`
