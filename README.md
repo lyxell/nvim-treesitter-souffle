@@ -11,7 +11,7 @@ Plug 'https://github.com/lyxell/nvim-treesitter-souffle'
 call plug#end()
 ```
 
-Add the following to your config:
+Then add the following to your config:
 
 ```vim
 lua <<EOF
