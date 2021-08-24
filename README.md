@@ -28,6 +28,8 @@ call plug#end()
 * Add the following to your config:
 
 ```vim
+autocmd BufNewFile,BufRead *.dl setfiletype souffle
+
 lua <<EOF
 local parser_config = require "nvim-treesitter.parsers".get_parser_configs()
 parser_config.souffle = {
