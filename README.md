@@ -6,6 +6,8 @@ Requires neovim 0.5 or later and [nvim-treesitter](https://github.com/nvim-trees
 
 ### 1. Installation
 
+Choose one of the following options.
+
 #### Using the built-in package manager
 
 ```
